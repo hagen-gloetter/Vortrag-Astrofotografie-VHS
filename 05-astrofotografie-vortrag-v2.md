@@ -25,6 +25,27 @@ Jede Folie enthält:
 
 Eigene Aufnahmen sollen möglichst durchgehend verwendet werden. Platzhalter sind mit **[Eigenes Bild]** gekennzeichnet.
 
+### Verbindliches visuelles Konzept (Version 2)
+
+**Bildsprache:** Wissenschaftlich präzise, technisch und leicht futuristisch, wie eine hochwertige optische Laborvisualisierung. Keine flachen Cartoon- oder Planetariums-Vektorbilder, keine japanischen Erklärillustrationen, kein überladenes Cyberpunk.
+
+| Element | Umsetzung |
+|---|---|
+| Hintergrund | Tiefes Navy `#0B1020`, subtiler Verlauf bis `#121A33` |
+| Konstruktion und Linien | Dünne, präzise cyan-/eisblaue Konturen `#6FB7FF`; Hilfslinien nur mit didaktischer Funktion |
+| Licht und Bewegung | Bernstein `#F5A623` für Photonen, Strahlen, Pfeile und wichtige Akzente |
+| Neutrale Elemente | Off-White `#F2F4F8`, zurückhaltende Metall- und Glasmaterialien |
+| Bildaufbau | Ein Hauptgedanke je Folie, klarer Fokus, ausreichend Abstand und Beamerkontrast |
+| Eigene Fotos | Astronomische Aufnahmen und reale Gerätefotos bleiben authentisch; keine KI-Rekonstruktion als vermeintliches Original |
+| Beschriftungen | In PowerPoint nativ, niemals in KI-generierten Bildern; Zahlen, Skalen und Formeln ebenso |
+| Technische Genauigkeit | Achsen, Winkel, Bayer-Raster, Wellenlängen, Histogramme und Diagramme nativ ergänzen oder aus Messdaten erstellen |
+
+**Layoutsystem:** Folientitel und maximal wenige Kernpunkte auf dunklem Hintergrund. Erklärgrafiken bevorzugt als 4:3- oder 1:1-Bild neben Text; eigene Astrofotos bei Ergebnis- und Staunfolien großflächig. Vergleichsfolien mit gleich großen, exakt ausgerichteten Panels und konstantem Bildausschnitt. Tabellen und Rezeptwerte als native PowerPoint-Elemente. Die technischen Konstruktionslinien sind dezent, nicht dekorativ.
+
+**Unterscheidung:** `KI-Illustration` erklärt ein Konzept, `Eigenes Foto` dokumentiert ein reales Ergebnis, `Natives Schaubild` zeigt präzise Messwerte oder Geometrie, `Screenshot` zeigt eine echte Softwareansicht. Für die KI-Illustrationen gilt der Stilblock in [`06_bildprompts-v2_technisch-wissenschaftlich.md`](06_bildprompts-v2_technisch-wissenschaftlich.md). Keine Logos oder künstlichen UI-Texte in generierten Bildern.
+
+**Didaktische Konstante:** Alltagsvergleich zuerst, wissenschaftliche Erklärung danach. Der neue Stil darf die Verständlichkeit für Einsteiger nicht verringern. **Vorhandene Folientexte, Sprechtexte, Rezepte und Folienreihenfolge bleiben unverändert.**
+
 ### Roter Faden
 
 **Warum seid ihr hier? → Ein wenig Physik → Vier Stufen vom Smartphone zum Profi-Teleskop → Vom Rohbild zum fertigen Bild → Los geht's**
@@ -70,6 +91,10 @@ Aufnehmen, stacken, staunen
 
 **[Eigenes Bild: besonders eindrucksvolle Astroaufnahme als vollflächiger Hintergrund]**
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigenes Foto, vollflächig.** Navy-Verlauf nur als dezente Textabdunklung; Titel in Off-White, Bernstein als kleine Akzentlinie. Keine KI-Sterne über das Original legen.
+
 ### Kernaussage
 
 Astrofotografie ist ein Hobby, bei dem Staunen und Handwerk zusammenkommen, und der Einstieg ist leichter, als er aussieht.
@@ -100,6 +125,10 @@ Bevor wir loslegen, möchte ich wissen, was euch hierhergeführt hat.
 ### Visualisierung
 
 Die vier Aussagen nacheinander einblenden. Noch keine Geräte oder technischen Lösungen zeigen.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Native Typografie.** Vier Aussagen als gleich große cyan-konturierte Karten, einzeln eingeblendet; keine Gerätesymbole vor der Auflösung.
 
 ### Kernaussage
 
@@ -140,6 +169,10 @@ Schauen wir uns zuerst an, was der Himmel heute Abend zu bieten hätte.
 
 Vier Stationen als einfache Reihe aus nativen Formen. Dahinter ein Himmelsbild.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Native Prozessgrafik.** Vier technisch klare Stationen mit feiner cyanfarbener Verbindung und einem bernsteinfarbenen Fortschrittspfad; Hintergrundfoto stark abgedunkelt.
+
 ### Kernaussage
 
 Der Abend führt von den Grundlagen über die Geräte zum fertigen Bild.
@@ -172,6 +205,10 @@ Jetzt aber erst einmal der Blick nach oben, auch wenn die Wolken heute dichter s
 ### Visualisierung
 
 Live-Ansicht aus Stellarium für den Veranstaltungsort, 19:00 Uhr, mit eingeschalteter Beschriftung für Orion, Plejaden und Andromedagalaxie. Als Platzhalter ein Screenshot.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Echter Stellarium-Screenshot.** In ruhigem Navy-Rahmen, nur notwendige Sternbildnamen sichtbar; keine erfundene Benutzeroberfläche.
 
 ### Kernaussage
 
@@ -212,6 +249,10 @@ Das Licht dieser Objekte hat eine unglaublich lange Reise hinter sich.
 
 Eine räumliche Reise vom Mond über Sonne und Orionnebel bis zur Andromedagalaxie. Als Alltagsbild ein Brief, der lange unterwegs war.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration.** Erde als Ziel, vier eindeutig zur Erde gerichtete bernsteinfarbene Lichtwege von Mond, Sonne, Orionnebel und Andromeda. Lichtlaufzeiten als native Beschriftungen.
+
 ### Kernaussage
 
 Jeder Blick ins Weltall ist ein Blick in die Vergangenheit.
@@ -246,6 +287,10 @@ Bevor dieses Licht bei uns ankommt, muss es noch durch unsere Luft.
 ### Visualisierung
 
 Links Flimmern über heißem Asphalt oder einem Grill, rechts ein Stern in ruhiger und in unruhiger Luft als Bildfolge.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration.** Translucente warme und kühle Luftzellen, minimal geknickter Strahl; Vergleich scharfer/verschwommener Stern in gleich großen cyan-gerahmten Feldern. Straße mit Hitzeflimmern als anschaulicher Sockel.
 
 ### Kernaussage
 
@@ -284,6 +329,10 @@ Jetzt kommt das Licht bei unserer Optik an. Zuerst: Wie viel davon fangen wir ei
 ### Visualisierung
 
 Zwei Eimer im Regen: ein kleiner und ein doppelt so breiter. Daneben ein Objektiv und ein Teleskop mit eingezeichnetem Öffnungsdurchmesser.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration + native Geometrie.** Zwei technische transparente Lichtsammelgefäße mit Durchmesserverhältnis 1:2. Öffnungsdurchmesser und Verhältnis 1× zu 4× in PowerPoint exakt ergänzen.
 
 ### Kernaussage
 
@@ -324,6 +373,10 @@ Größen am Himmel:
 ### Visualisierung
 
 Ein Himmelsbild mit ineinanderliegenden Rahmen (24 mm, 200 mm, Teleskop). Daneben die Hand am ausgestreckten Arm: kleiner Finger ≈ 1°, Daumen ≈ 2°, Faust ≈ 10°.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigenes Sternfeld + native Rahmen.** Identischer Himmelsausschnitt mit geometrisch korrekten, ineinanderliegenden Bildfeldrahmen. Die Hand-Winkel-Metapher als kleine technische Silhouette daneben.
 
 ### Kernaussage
 
@@ -366,6 +419,10 @@ Farbe entsteht durch winzige Farbfilter vor den Pixeln (Rot, Grün, Blau).
 
 Raster aus Eimern mit unterschiedlichen Füllständen. Daneben ein Bayer-Muster als Schachbrett aus Rot, Grün und Blau.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration + natives Bayer-Raster.** Transparente Sensor-Pixelgefäße mit unterschiedlichen Füllständen; RGB-Filter als separater optischer Cutaway. Exaktes RGGB-Muster als native 4×4-Matrix.
+
 ### Kernaussage
 
 Ein Foto ist eine Messung, bei der jedes Pixel zählt, wie viel Licht ankommt.
@@ -400,6 +457,10 @@ Wie viel wir sammeln dürfen, hängt aber von einem Mitspieler ab: der Erde.
 ### Visualisierung
 
 Kurze Belichtung mit punktförmigen Sternen und lange Aufnahme mit Sternspuren. Daneben ein Karussell von oben: außen schnell, innen langsam.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigenes Sternspurenfoto + KI-Analogie.** Zwei gleich gerahmte Bildausschnitte für punktförmige Sterne und Striche; technische Karussell-Draufsicht mit konzentrischen Bewegungsspuren.
 
 ### Kernaussage
 
@@ -438,6 +499,10 @@ Jetzt kennen wir die Grundlagen und können die vier Stufen anschauen, vom Smart
 
 Eine Treppe oder Leiter aus vier Stufen mit je einem eigenen Foto des Geräts. Daneben je ein Beispielbild des typischen Ziels.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration.** Vier mechanisch plausible Geräte auf gleichwertigen sanft steigenden Podesten, mit je einem kleinen typischen Himmelsmotiv; keine visuelle Wertung als „besser“.
+
 ### Kernaussage
 
 Mit jeder Stufe wächst die Kontrolle, aber auch der Aufwand. Beides ist eine Frage der Ziele.
@@ -473,6 +538,10 @@ Geeignet für:
 ### Visualisierung
 
 Eigene Smartphone-Aufnahmen und ein Smartphone an einer Okularhalterung.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Geräte- und Himmelsfotos.** Smartphone am Mini-Stativ und afokale Okularhalterung als sachlicher Zweiervergleich mit feinen cyanfarbenen Trennlinien.
 
 ### Kernaussage
 
@@ -513,6 +582,10 @@ Schauen wir uns ein Beispiel an, das euch vielleicht überrascht: die Andromedag
 ### Visualisierung
 
 **[Eigenes Bild: Andromedagalaxie, im Sommer mit dem Smartphone aufgenommen]**. Dazu ein Foto des Aufbaus (Smartphone auf Stativ). Wenn vorhanden: das Original und die bearbeitete Version nebeneinander.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigenes Ergebnisbild.** Andromedaaufnahme groß und unverfälscht, kleines Aufbau-Foto; Rezepttabelle nativ und klar lesbar.
 
 ### Kernaussage
 
@@ -560,6 +633,10 @@ Ein paar Tipps und Grenzen, bevor wir die Treppe weitergehen.
 
 Ein Smartphone auf einem Mini-Stativ vor Nachthimmel. Daneben ein Vergleich: Mond mit Standardbelichtung und mit nach unten korrigierter Belichtung.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigenes Smartphone-Foto.** Gleicher Mond-Ausschnitt vor/nach Belichtungskorrektur, zwei identisch große Vergleichsfelder; keine künstlichen Mondstrukturen.
+
 ### Kernaussage
 
 Das Smartphone ist ein ideales Einstiegsgerät, stößt aber bei Details und langen Belichtungen an klare Grenzen.
@@ -593,6 +670,10 @@ Wenn euch diese Grenzen stören, ist die nächste Stufe die Spiegelreflexkamera.
 ### Visualisierung
 
 Die vorhandene DSLR in der Mitte, umgeben von fünf eigenen Beispielaufnahmen.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Geräte- und Ergebnisfotos.** DSLR zentral, fünf optische Anwendungsbeispiele als symmetrische cyan-gerahmte Kacheln; Brennweiten nativ beschriften.
 
 ### Kernaussage
 
@@ -628,6 +709,10 @@ Mein Lieblingsbeispiel für die Stufe zwei ist der Orion mit einem Teleobjektiv.
 ### Visualisierung
 
 **[Eigenes Bild: Orion mit Teleobjektiv, Einzelbild und gestapeltes Ergebnis]**. Daneben das Foto des Aufbaus.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Orionbilder.** Einzelbild und Stack identisch beschnitten, sauber nebeneinander; Setup-Foto klein, Rezeptwerte nativ.
 
 ### Kernaussage
 
@@ -667,6 +752,10 @@ Ein Star-Tracker:
 ### Visualisierung
 
 Foto des vorhandenen Nachführsystems und der Vergleich ohne beziehungsweise mit Nachführung. Dazu eine Schemazeichnung: Achse zum Polarstern.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration + native Achse.** Star-Tracker mit sichtbarer geneigter Polarachse, exakt zum Himmelspol verlängerter Linie und technisch plausiblen Drehrichtungspfeilen.
 
 ### Kernaussage
 
@@ -710,6 +799,10 @@ Zusammengefasst: Was bringt die zweite Stufe, und wo sind ihre Grenzen?
 
 Eine kleine Auswahl eigener Ergebnisse der Stufe zwei. Daneben der Live-View-Bildschirm mit vergrößertem Stern und Fokus.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene DSLR-Ergebnisse.** Präzise Vergleichskacheln und echter Live-View-Fokus-Ausschnitt; keine erfundene Kamerasoftware.
+
 ### Kernaussage
 
 Die DSLR bietet viel Flexibilität für das Geld und ist eine ideale Brücke zwischen Einsteiger und Profi.
@@ -744,6 +837,10 @@ Wem das zu viel Technik ist, der freut sich über die dritte Stufe: das Smart-Te
 ### Visualisierung
 
 Eigene Fotos des Seestar S50 Pro: transportfertig, aufgebaut, App-Ansicht und eigenes Ergebnisbild. Mit beschrifteten Hauptkomponenten.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Seestar-Fotos und Screenshots.** Geräteansichten auf neutralem Navy, dezente cyanfarbene Bauteil-Hinweise nativ; technische Daten unverändert.
 
 ### Kernaussage
 
@@ -788,6 +885,10 @@ Schauen wir uns an, was das Gerät automatisch erledigt.
 
 Prozessgrafik mit acht Schritten und zunehmend deutlicher werdendem Beispielbild.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration.** Ungebrandetes Smart-Teleskop links, rechts drei gleich beschnittene Smartphone-Ansichten desselben Nebels mit abnehmendem Rauschen. Die acht Schritte als native Prozessleiste.
+
 ### Kernaussage
 
 Das Smart-Teleskop automatisiert den klassischen Astrofotografie-Workflow.
@@ -825,6 +926,10 @@ Das Gerät beherrscht zwei Arten, dem Himmel zu folgen. Das sehen wir uns an.
 ### Visualisierung
 
 Zwei eigene Fotos des Seestar S50 Pro: einmal im AZ-Aufbau, einmal im EQ-Aufbau mit EQ-Keil auf dem Stativ. Daneben als natives Schaubild die Drehachsen: senkrecht im AZ-Modus, zum Himmelspol geneigt im EQ-Modus.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Gerätefotos + natives Achsenschema.** Identisches Gerät im AZ- und EQ-Aufbau, gleiche Größe; Achsen, Himmelspol und Norden technisch korrekt nativ zeichnen.
 
 ### Kernaussage
 
@@ -866,6 +971,10 @@ Und so sieht das Ergebnis aus, wenn so ein Gerät ein paar Minuten läuft.
 ### Visualisierung
 
 Dasselbe eigene Deep-Sky-Motiv in sechs Stufen, am besten ein Nebel oder die Andromedagalaxie vom Seestar.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Deep-Sky-Aufnahmen.** Sechs gleich beschnittene Zustände desselben Motivs in identischen cyan-gerahmten Feldern; Zeitwerte nativ.
 
 ### Kernaussage
 
@@ -910,6 +1019,10 @@ Zum Schluss der Stufen kommt das klassische Teleskop-System für alle, die mehr 
 
 Je ein Teleskoptyp mit einem typischen eigenen Ergebnisbild.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Teleskopfotos.** Drei gleichwertige Spalten für Refraktor, Newton und katadioptrische Optik; zugehörige echte Beispielbilder.
+
 ### Kernaussage
 
 Die Bauform des Teleskops beeinflusst Gesichtsfeld, Brennweite, Handhabung und geeignete Motive.
@@ -950,6 +1063,10 @@ Das nächste Stichwort ist deshalb die Montierung.
 
 Schematische Darstellung beider Montierungsarten mit eingezeichneter Erdachse und Himmelspol.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration + native Achsen.** AZ- und parallaktische Montierung als zwei mechanisch plausible technische Cutaways. Polarachse und Rotationspfeile nativ präzisieren.
+
 ### Kernaussage
 
 Für lang belichtete Deep-Sky-Aufnahmen ist eine präzise Montierung häufig wichtiger als ein größeres Teleskop.
@@ -988,6 +1105,10 @@ Neben Teleskop und Montierung gehören noch weitere Bausteine zu einem Profi-Sys
 ### Visualisierung
 
 Foto des vorhandenen vollständigen Systems mit beschrifteten Komponenten.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigenes Gesamtsetup.** Realaufnahme groß, Komponenten mit feinen cyanfarbenen Callouts nativ; Filter-Sieb als kleine separate technische Analogie.
 
 ### Kernaussage
 
@@ -1029,6 +1150,10 @@ Schauen wir uns an, wie ein Ergebnis aus so einem System aussehen kann.
 
 Drei Schwarz-Weiß-Aufnahmen (SII, Hα, OIII) desselben Nebels, daneben das daraus kombinierte Farbbild. Als natives Schaubild die Zuordnung der drei Linien zu Rot, Grün und Blau.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Schmalbanddaten.** Drei identisch beschnittene monochrome Kanalbilder und echtes Farbkomposit. SII/Hα/OIII-Farbzuordnung nativ, keine KI-Nebel als echte Daten ausgeben.
+
 ### Kernaussage
 
 Schmalbandfotos sind datenbasiert, ihre Farben aber bewusst gewählt.
@@ -1063,6 +1188,10 @@ Jetzt habt ihr vier Stufen gesehen. Welche passt zu wem?
 | Details, Schmalband, Planeten | Profi-Teleskop | hoch |
 
 **Tipp:** Beginnt mit dem Gerät, das ihr schon habt.
+
+### Visualisierung
+
+**Umsetzung im vereinbarten visuellen Stil:** **Native Tabelle.** Klare cyanfarbene Spaltenstruktur mit Bernsteinmarkierung der gewählten Zielgruppe; keine KI-Grafik erforderlich.
 
 ### Kernaussage
 
@@ -1100,6 +1229,10 @@ Damit kennt ihr die Geräte. Jetzt kommt der Teil, den fast alle unterschätzen:
 
 Prozesskette aus sieben Schritten mit einem Beispielbild, das von Station zu Station besser wird.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration + native Prozesskette.** Kamera, mehrere identisch gerahmte Einzelbilder, Verarbeitungsfluss, Laptop mit sauberem Ergebnis. Sieben Schritte nativ darüberlegen.
+
 ### Kernaussage
 
 Astrofotos entstehen zur Hälfte am Himmel und zur Hälfte am Rechner.
@@ -1134,6 +1267,10 @@ Aber zuerst: Eine gute Nacht beginnt mit guter Planung.
 ### Visualisierung
 
 Dasselbe Himmelsmotiv aus einem städtischen und einem dunkleren Standort. Daneben ein Screenshot der Planungsansicht aus Stellarium.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Himmelbilder + echter Stellarium-Screenshot.** Stadt/Land-Vergleich mit gleichem Motiv, Kontrastunterschied sichtbar, Softwarebild unverändert.
 
 ### Kernaussage
 
@@ -1170,6 +1307,10 @@ Zurück vom Aufnahmeort sitzen wir vor einem Haufen Einzelbilder.
 ### Visualisierung
 
 Eine Serie eigener Einzelbilder, gute und schlechte, mit Markierung (grün und rot) und der Ursache.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Fehlerbilder.** Gleich große Ausschnitte mit nativen cyanfarbenen Diagnosemarkierungen und sparsamen Bernstein-/Warnakzenten.
 
 ### Kernaussage
 
@@ -1212,6 +1353,10 @@ Foto einer gleichmäßig hellen Fläche: korrigiert dunkle Ecken und Staub
 
 Ein Light, Dark und Flat aus dem eigenen Workflow sowie die korrigierte Auswirkung.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration oder eigene Kalibrierframes.** Vier exakt gleich große Felder: Light, Dark, Flat, korrigiertes Light. Technische Unterschiede klar, Labels nativ.
+
 ### Kernaussage
 
 Kalibrierungsbilder korrigieren technische Eigenschaften des Aufnahmesystems.
@@ -1248,6 +1393,10 @@ Jetzt haben wir alle Zutaten. Zeit zum Stacken.
 
 Vergleich mit 1, 4, 16 und 64 Aufnahmen desselben Motivs. Daneben ein Stapel verrauschter Bilder, der in ein sauberes Bild übergeht.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Stacking-Vergleiche.** 1/4/16/64 Aufnahmen mit identischem Motiv, Crop und Stretch; Werte nativ. Rauschabstufung datenbasiert statt frei generiert.
+
 ### Kernaussage
 
 Stacking macht aus vielen verrauschten Bildern ein sauberes Bild, weil sich Zufälliges herausmittelt.
@@ -1282,6 +1431,10 @@ Das gestackte Bild wirkt zuerst erstaunlich dunkel. Warum?
 
 Lineares Stack-Ergebnis und gestreckte Version mit Histogrammen.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene lineare und gestreckte Bilder.** Identische Szene, nebeneinander; Histogramme und Tonwertkurven nativ aus echten Daten.
+
 ### Kernaussage
 
 Das Strecken macht vorhandene schwache Bildinformationen sichtbar.
@@ -1313,6 +1466,10 @@ Für all das braucht ihr Software. Welche gibt es?
 | Smart-Teleskop | Seestar-App |
 
 **Tipp:** Für den Einstieg reicht ein einfaches Stacking-Programm. Die Ergebnisse werden sofort sichtbar.
+
+### Visualisierung
+
+**Umsetzung im vereinbarten visuellen Stil:** **Native Softwaretabelle.** Sachliche Matrix mit cyanfarbenen Trennlinien, Off-White-Text und sparsamen Bernsteinakzenten; keine generierten Logos.
 
 ### Kernaussage
 
@@ -1347,6 +1504,10 @@ Jetzt wird es praktisch: Ich zeige euch, wie Stacking aussieht.
 ### Visualisierung
 
 Live-Bildschirm von AstroWizard. **[Vorbereitung: Beispieldaten und Programm auf dem Vortragsrechner installieren, Menüs und Schritte vorab prüfen und diese Folie an die tatsächliche Reihenfolge anpassen. QR-Code zum Download der Beispieldaten bereithalten. Zusätzlich eine Bildschirmaufnahme der Demo als Notfallplan.]**
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Echter Live-Screenshot.** AstroWizard-Bedienoberfläche ohne KI-Nachbau, ggf. zwei echte Vorher/Nachher-Crops und nativer QR-Code.
 
 ### Kernaussage
 
@@ -1390,6 +1551,10 @@ Aus dem gestreckten Bild wird durch Feinschliff ein fertiges Foto.
 
 Ein Motiv in fünf klar erkennbaren Stufen: Einzelaufnahme, kalibrierte Aufnahme, Stack, gestrecktes Bild, fertige Bearbeitung. Je Stufe ein eigenes Bild.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Bearbeitungsstufen.** Fünf exakt gleich gerahmte Stadien desselben Motivs, durch dünnen bernsteinfarbenen Fortschrittspfad verbunden.
+
 ### Kernaussage
 
 Das fertige Bild ist das Ergebnis einer durchgängigen Kette aus Planung, Aufnahme und Verarbeitung.
@@ -1425,6 +1590,10 @@ Und jetzt noch eine Frage, die immer kommt: Ist das noch echt?
 ### Visualisierung
 
 Farbnähere Aufnahme, Schmalband-Farbzuordnung und Landschafts-Himmels-Montage.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Original- und Bearbeitungsbilder.** Drei gleichwertige Panels für farbnah, Schmalband und Montage; Entstehungsart transparent nativ kennzeichnen.
 
 ### Kernaussage
 
@@ -1470,6 +1639,10 @@ DSLR und Fischaugenobjektiv
 
 Die vier Bilder aus dem Einstieg, diesmal ergänzt um die konkreten Aufnahmesysteme.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigene Zielbilder + native Gerätesymbole.** Vier ursprüngliche Wünsche in identischer Kartenstruktur wiederaufgreifen, diesmal mit konkretem Einstiegssystem.
+
 ### Kernaussage
 
 Jeder Wunsch hat einen realistischen ersten Schritt, und ihr könnt jetzt erklären, warum.
@@ -1509,6 +1682,10 @@ Aber was kostet der Spaß, und wo lernt ihr weiter?
 
 Vier Symbole oder Karten (Smartphone, Kamera, Nachführung, Verein). Dazu ein QR-Code für Handout und Beispieldaten.
 
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **KI-Illustration + nativer QR-Code.** Vier cyan-konturierte technische Karten mit Smartphone, DSLR, Smart-Teleskop, Sternwarte/Verein. QR-Fläche rechts unten frei lassen.
+
 ### Kernaussage
 
 Der Einstieg ist günstig, und ihr müsst nicht allein anfangen.
@@ -1542,6 +1719,10 @@ Und jetzt: Fragen und anschließend der Blick auf die Geräte.
 ### Visualisierung
 
 Gruppenfoto oder übersichtliche Anordnung der tatsächlich vorhandenen Geräte. Im Hintergrund die Aufnahme der Titelfolie.
+
+
+
+**Umsetzung im vereinbarten visuellen Stil:** **Eigenes Gruppen-/Gerätefoto.** Echte vorhandene Geräte vor dem Titelbild; ruhige Navy-Überlagerung für die Abschlussfrage, keine erfundenen Geräte.
 
 ### Kernaussage
 

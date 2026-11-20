@@ -17,25 +17,40 @@ Die Bilder kommen in die Platzhalter `BILD_FolieN_k` der PowerPoint-Datei. **N i
 
 ## 1. Stil und Werkzeuge
 
-Der Stil ist unverändert: **Planetariums-Illustration**, dunkles Nachtblau, Bernstein und Eisblau, flacher Vektorstil, ein Motiv pro Bild, **kein Text im Bild**. Alle Regeln (Qualitätsprüfung, Hinweise je Werkzeug, Negativblock) stehen in `04_bildprompts.md`, Abschnitte 1 und 2. Formate: 4:3 oder 1:1.
+Der bisherige flache „Planetariums-Illustration“-Stil wird durch den gemeinsam festgelegten **technisch-wissenschaftlichen Stil mit dezenter Science-Fiction-Ästhetik** ersetzt. Die Bildsprache orientiert sich an präzisen wissenschaftlichen Lehrgrafiken und hochwertigen optischen Laborvisualisierungen, nicht an Cartoons, japanischen Erklärbildern oder überladenem Cyberpunk. Formate bleiben **4:3 oder 1:1**, wie je Folie angegeben.
 
-**Stilblock (an jeden neuen Prompt anhängen):**
+**Verbindliche Gestaltungsregeln:**
+
+- **Hintergrund:** tiefes Navy `#0B1020`, höchstens sanfter Verlauf nach `#121A33`; keine hellen Flächen, außer wenn für eine sachliche Darstellung nötig.
+- **Konturen und Konstruktion:** präzise, feine cyan-/eisblaue Linien (`#6FB7FF`), dezente geometrische Hilfslinien und Achsen; keine sinnlosen HUD-Elemente.
+- **Licht und Akzente:** sparsam eingesetztes Bernstein `#F5A623` für Photonen, Strahlen, Bewegung und Hervorhebungen; Off-White `#F2F4F8` für neutrale Elemente.
+- **Materialien:** technisch plausible transparente Glasbauteile, Linsen, Sensoren, dezentes gebürstetes Metall; kontrollierte Lichtreflexe statt starker Lens Flares.
+- **Naturfarben:** bei Mond, Sternen, Nebeln und realen Umgebungen erlaubt, aber wissenschaftlich plausibel und nicht überdramatisiert.
+- **Komposition:** ein eindeutiger didaktischer Gedanke pro Bild, klare Blickführung, ausreichende Randabstände, ausgewogene Bildfüllung; kein überflüssiger Dekor.
+- **Textfrei:** **keine** Buchstaben, Zahlen, Beschriftungen, Formeln, Skalen, Logos, Marken oder Wasserzeichen im generierten Bild. Alle Texte kommen nativ in PowerPoint.
+- **Wissenschaftliche Genauigkeit:** Richtung, Anzahl, Proportionen, optische Achsen und Vorher-Nachher-Bezüge anhand der Prüfpunkte kontrollieren. Exakte Spektrallinien, Winkel, Bayer-Muster, Diagrammkurven und Zahlen nativ erstellen.
+- **Fotos:** eigene astronomische Aufnahmen und Gerätefotos nicht durch erfundene „echte“ Bilder ersetzen. Generierte Nebel bleiben generisch und eindeutig illustrativ.
+
+**Verbindlicher Stilblock (an jeden KI-Prompt anhängen):**
 
 ```text
-Style: flat vector infographic illustration in a planetarium style. Deep midnight navy background (#0B1020) with a subtle gradient to #121A33. Clean geometric shapes, soft glow, limited palette of warm amber (#F5A623), ice blue (#6FB7FF) and off-white (#F2F4F8). A few tiny scattered stars as texture. Single clear subject, generous empty space, high contrast for projector display, friendly educational look. No text, no letters, no numbers, no logos, no watermark.
+Style: precise scientific educational illustration with a sophisticated, restrained near-science-fiction optical laboratory aesthetic. Deep midnight navy background (#0B1020), subtle gradient toward #121A33. Crisp thin luminous cyan and ice-blue engineering contours (#6FB7FF), subtle physically meaningful construction guides, warm amber (#F5A623) only for light paths, photons, motion or key highlights, and off-white (#F2F4F8) neutral details. Plausible transparent optical glass, sensor structures and brushed-metal hardware where appropriate. Controlled realistic material shading and restrained soft glow. Clean disciplined geometry, accurate visual relationships, high contrast suitable for projection, balanced composition with clear subject and safe margins. Natural celestial colors only where scientifically relevant. More like a high-quality university physics textbook figure combined with a polished optical engineering visualization than a cartoon. No text, no letters, no numbers, no captions, no formulas, no labels, no logos, no watermark.
 ```
 
 **Negativblock:**
 
 ```text
-text, letters, numbers, captions, labels, logos, watermark, photo-realistic, cluttered background, extra fingers, distorted hands
+text, letters, numbers, captions, labels, formulas, equations, axes with numbers, logos, brand marks, watermark, cartoon, anime, flat playful vector art, pastel textbook art, busy cyberpunk, decorative holographic HUD, meaningless grids, excessive lens flare, clutter, malformed hands, extra fingers, invented astronomical photographs
 ```
 
+**Arbeitsweise:** Englischen Motivprompt mit dem Stilblock kombinieren und das vorgegebene Seitenverhältnis angeben. Vor Freigabe die konkreten Prüfpunkte kontrollieren. Wenn eine physikalisch exakte Darstellung per KI nicht zuverlässig gelingt, **nur den anschaulichen Teil generieren** und präzise Pfeile, Messwerte, Kurven oder Raster in PowerPoint ergänzen.
+
+**Für wiederverwendete Prompts aus `04_bildprompts.md` gilt ausdrücklich:** Deren alter Stilblock und Negativblock werden **nicht** übernommen. Ausschließlich den Motivinhalt wiederverwenden und mit dem hier definierten neuen Stilblock erzeugen. Bereits passende technisch-wissenschaftliche Bilder können unverändert wiederverwendet werden.
 ---
 
 ## 2. Wiederverwendung von Prompts aus `04_bildprompts.md`
 
-Die Prompts bleiben unverändert. Die Spalte „Anpassung" nennt, was sich in der Kompaktfassung ändert.
+Die **Motivbeschreibungen** bleiben erhalten, werden aber immer mit dem **neuen Stilblock aus Abschnitt 1** kombiniert. Der alte Planetariums-/Vektorstil wird nicht übernommen. Die Spalte „Anpassung“ nennt, was sich in der Kompaktfassung ändert.
 
 | Folie (v2) | Thema | Prompt in `04_bildprompts.md` | Anpassung |
 |---|---|---|---|
@@ -64,7 +79,7 @@ Die Prompts bleiben unverändert. Die Spalte „Anpassung" nennt, was sich in de
 **Bild soll zeigen:** eine Treppe mit vier Stufen und dem passenden Gerät und Ziel auf jeder Stufe. Betont wird Wachstum, nicht Rangfolge.
 
 ```text
-A gently rising staircase of four wide steps of equal width, seen from the side, left to right. On the first step a smartphone standing on a tiny tripod. On the second step a DSLR camera with a long lens on a tripod. On the third step a compact all-in-one smart telescope on a small tripod. On the fourth step a classic telescope on an equatorial mount. Above each device floats a small glowing target in the night sky: a crescent moon above the phone, a band of the Milky Way above the camera, a glowing nebula above the smart telescope, and a spiral galaxy above the classic telescope. All devices are generic and have no brand marks.
+A scientifically precise four-step progression of astronomical observing setups, seen from a slightly elevated side angle, left to right. Exactly four broad equal-width steps, modestly rising rather than suggesting a hierarchy. Step one: generic smartphone on tiny tripod with a small crescent Moon icon above. Step two: generic DSLR with telephoto lens on sturdy tripod with a subtle Milky Way band above. Step three: compact unbranded all-in-one smart telescope on small tripod with a generic red-teal emission nebula above. Step four: classical refractor on a mechanically plausible equatorial mount with polar shaft and counterweight, with a generic spiral galaxy above. Devices are distinct, correctly supported, comparable in visual importance, with clean metal and glass surfaces and fine cyan engineering outlines. Each celestial target floats separately over its matching device; no arrows implying one device is inherently superior. No writing or logos.
 ```
 
 **Beschriftung in PowerPoint:** 1 bis 4 und die Namen der Stufen aus der Folie.
@@ -75,7 +90,7 @@ A gently rising staircase of four wide steps of equal width, seen from the side,
 **Bild soll zeigen:** die Kamera dreht sich mit dem Himmel mit.
 
 ```text
-A small camera with a lens mounted on a compact motorized tracking head on a tripod, pointing up at the night sky. The tracking head's rotation axis is tilted upward and aimed at a single bright pole star. Faint concentric star trails circle around the pole star in the sky. Two curved arrows show the rotation: a blue curved arrow around the pole star showing how the sky appears to turn, and an amber curved arrow around the tracker's axis, both running in the same direction. Minimal geometric shapes, no brand details.
+Precise technical optical-mechanics illustration of an unbranded DSLR with lens on a compact motorized star-tracker head and tripod under a restrained dark night sky. The tracker polar shaft is clearly tilted upward and its straight dashed extension points exactly at one bright celestial pole star. Faint concentric apparent star-trail arcs centered on that star. Show one thin cyan curved arrow on the sky trail and one amber curved arrow about the tracking shaft, both with the same apparent rotational direction as a teaching schematic. Ensure arrows do not suggest motion around different axes. Brushed metal bearings, minimal cyan construction guides. No labels or numbers; exact rotation arrows may be redrawn natively in PowerPoint.
 ```
 
 **Beschriftung:** Himmelspol · Polarstern · Star-Tracker.
@@ -86,7 +101,7 @@ A small camera with a lens mounted on a compact motorized tracking head on a tri
 **Bild soll zeigen:** Tippen in der App, das Gerät arbeitet, das Bild wächst.
 
 ```text
-Left: a compact all-in-one smart telescope on a small tripod outdoors at night, pointing at a glowing nebula in the sky. A thin amber beam of light runs from the nebula into its lens. Right: three overlapping copies of a smartphone screen showing the same nebula at three stages, from very grainy and faint in the back to clean and bright in front, suggesting that the picture grows over time. A dotted wireless signal arc connects the telescope and the phone. A fingertip taps the front screen. No brand marks.
+Balanced scientific-technical illustration of automatic smart telescope imaging. Left: a compact generic unbranded all-in-one smart telescope on a stable small tripod outdoors at night, with its objective pointed toward one original generic faint nebula. A subtle amber incoming light path runs FROM nebula TO objective, not outward. Right: exactly three identical unbranded smartphone screen silhouettes, slightly overlapping but each nebula image visible, displaying the SAME fixed star pattern and nebula composition at successive integration stages: rear very noisy and faint, middle moderately noisy and brighter, front cleaner with better signal-to-noise. No UI writing or fake controls. A fine dotted cyan wireless connection from telescope to phone, and one simple anatomically plausible fingertip touching front screen. Precise glass/metal, restrained glow, scientific clarity.
 ```
 
 **Beschriftung:** Zielobjekt · Live-Stacking · App.
@@ -97,7 +112,7 @@ Left: a compact all-in-one smart telescope on a small tripod outdoors at night, 
 **Bild soll zeigen:** Hälfte Himmel, Hälfte Rechner: viele Bilder werden zu einem.
 
 ```text
-Split composition with a soft diagonal path from left to right. Left half: a camera on a tripod under a starry night sky, capturing a cascade of many small square photos that fall like cards. Right half: a cozy desk with a laptop where the stack of small photos merges into one single large glowing nebula picture on the screen. Between both halves a path of small stepping stones suggests the steps of the process. Calm, friendly mood.
+Scientific technical two-part process illustration with a continuous clear left-to-right flow. Left: DSLR on a tripod under a dark realistic illustrative star field, capturing a sequence of many small identical-framed exposures of the SAME generic nebula, each with different random noise. Middle: a tidy stream of small square image frames converges through a restrained cyan processing pathway, no arbitrary stepping stones. Right: an unbranded laptop on a clean desk displaying ONE final aligned, stacked, high signal-to-noise image of the SAME nebula, recognizable by identical star positions and cloud geometry. Thin amber motion cues and precise cyan optical-laboratory construction lines. No text, numbers, labels or logos.
 ```
 
 **Beschriftung:** Himmel · Rechner (die sieben Schritte stehen nativ auf der Folie).
@@ -108,7 +123,7 @@ Split composition with a soft diagonal path from left to right. Left half: a cam
 **Bild soll zeigen:** die drei Bildsorten und das saubere Ergebnis.
 
 ```text
-Three framed square photos side by side, followed by an arrow pointing to a fourth, clean picture. First frame: a star field with a faint glowing nebula and a bit of grainy noise. Second frame: an almost black image with a few tiny bright speckles, a small lens cap icon in the corner. Third frame: an evenly lit grey-white surface that is darker in the corners and shows several faint ring-shaped dust shadows. The fourth frame at the end of the arrow: the same star field and nebula as in the first frame, now clean, sharp and evenly lit.
+Scientific educational four-stage calibration comparison in one horizontal row of four identical-size square image panels. Panel one: a faint generic emission nebula and fixed stars with visible grain and some optical vignetting. Panel two: a nearly black dark exposure with a few subtle hot pixels and fixed-pattern speckles, and a tiny simple closed lens-cap silhouette beside it. Panel three: evenly illuminated neutral gray flat field with gradual darkening toward corners and two faint donut-shaped dust shadows, NO stars or nebula. Panel four: the EXACT SAME nebula and star pattern as panel one, but with reduced fixed-pattern artifacts, corrected vignetting and dust shadows, cleaner background. Thin cyan frames and subtle amber flow arrows between panels; no exaggerated creation of new astronomical detail. This is an illustrative concept, not a mathematically exact calibration pipeline; replace panels with actual captures when available. No writing, labels or numbers.
 ```
 
 **Beschriftung:** Light · Dark · Flat · Ergebnis.
@@ -119,7 +134,7 @@ Three framed square photos side by side, followed by an arrow pointing to a four
 **Bild soll zeigen:** vier Karten für vier Schritte, mit Platz für den QR-Code.
 
 ```text
-Four rounded cards in a row, each showing one simple icon on a navy background: a smartphone on a tiny tripod, a DSLR camera on a tripod, a compact smart telescope on a tripod, and a small observatory dome with a group of friendly people silhouettes next to it. The cards are connected by a thin amber line from left to right. Leave an empty square space in the lower right corner for adding a QR code later. Do not draw a QR code.
+Exactly four visually consistent rounded rectangular technical cards in a single horizontal row on midnight navy, connected by one thin amber path from left to right. Each card contains one clean precision-illustrated cyan/metal icon, in order: generic smartphone on tiny tripod; generic DSLR camera on tripod; compact unbranded smart telescope on tripod; small observatory dome beside a small group of simple anonymous human silhouettes. Balanced polished scientific engineering style, no cartoon faces or fake interface text. Reserve a clearly empty square area in the LOWER RIGHT, separate from the four cards, for a real QR code to be added later; DO NOT generate any QR pattern. Keep cards legible and safe margins, no labels, logos, text or numbers.
 ```
 
 **Beschriftung:** ohne Extrakosten · mit Kamera · mit Nachführung · Weiterlernen.
