@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Wenn Sie dieses Material verwenden, zitieren Sie es bitte wie folgt."
+title: "Astrofotografie – Physik und Technik des Nachthimmels"
+type: dataset
+authors:
+  - family-names: "Glötter"
+    given-names: "Hagen"
+repository-code: "https://github.com/hagen-gloetter/Vortrag-Astrofotografie-VHS"
+url: "https://github.com/hagen-gloetter/Vortrag-Astrofotografie-VHS"
+abstract: "VHS-Vortrag für Laien über Astrofotografie: vom Photon zum Bild und welches Werkzeug zu welchem Ziel passt. Enthält das Vortragsskript, einen Prompt zur Erzeugung der PowerPoint-Datei und Bildprompts."
+keywords:
+  - Astrofotografie
+  - Astronomie
+  - Volkshochschule
+  - Vortrag
+  - Physik
+license: CC-BY-4.0
+language: deu
